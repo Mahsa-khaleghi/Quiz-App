@@ -37,11 +37,11 @@ ul {
   padding: 15px;
 }
 ul li {
-  font-size: 20px;
+  font-size: 20px; 
+  margin: 10px 0;
 }
 ul li label {
   cursor: pointer;
-  line-height: 30px;
 }
 
 /* Buttons */
@@ -60,15 +60,12 @@ ul li label {
   font-size: 16px;
   padding: 10px;
   border-radius: 8px;
+  background-color: #BE5869;
 }
 .prev {
-  background-color: #858585;
+  background-color: #858585 !important;
 }
 .submit {
   display: none;
-  background-color: #BE5869;;
-}
-.next {
-  background-color: #BE5869;
 }
  

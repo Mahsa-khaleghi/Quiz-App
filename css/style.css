@@ -18,10 +18,11 @@ h1 {
   margin: 20px;
   padding-top: 100px;
 }
-.quiz-box {
+.quiz-box{
   background-color: rgb(233, 243, 243);
   border-radius: 10px;
-  width: 30%;
+  width: 35%;
+  width: 35%;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
 }
 .quiz-header {
@@ -29,7 +30,6 @@ h1 {
 }
 .question {
   padding: 10px;
-  text-align: center;
   font-size: 25px;
 }
 ul {

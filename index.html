@@ -11,23 +11,23 @@
       <h1>Lets Start Quiz App</h1>
       <div class="quiz-box">
         <div class="quiz-header">
-          <h2 class="question">First Question</h2>
+          <h2 class="question">Question</h2>
           <ul>
             <li>
               <input type="radio" name="answer" class="answer" id="inp_1" />
-              <label for="a" class="ans-lable" id="ans_1">answer1</label>
+              <label for="inp_1" class="ans-lable" id="ans_1">answer1</label>
             </li>
             <li>
               <input type="radio" name="answer" class="answer" id="inp_2" />
-              <label for="b" class="ans-lable" id="ans_2">answer2</label>
+              <label for="inp_2" class="ans-lable" id="ans_2">answer2</label>
             </li>
             <li>
               <input type="radio" name="answer" class="answer" id="inp_3" />
-              <label for="c" class="ans-lable" id="ans_3">answer3</label>
+              <label for="inp_3" class="ans-lable" id="ans_3">answer3</label>
             </li>
             <li>
               <input type="radio" name="answer" class="answer" id="inp_4" />
-              <label for="d" class="ans-lable" id="ans_4">answer4</label>
+              <label for="inp_4" class="ans-lable" id="ans_4">answer4</label>
             </li>
           </ul>
           <div class="buttons">
@@ -37,16 +37,13 @@
           </div>
         </div>
       </div>
-
       <div class="result-container" id="result">
         <h2 id="score"></h2>
         <div class="buttons">
-          <button class="reload" onclick="window.reload()">Start Over</button>
-          <button class="showAns">Show Answers</button>
+          <button class="reload" onclick="location.reload()">Start Over</button>
         </div>
       </div>
     </div>
-
     <script type="module" src="./js/script.js"></script>
   </body>
 </html>
